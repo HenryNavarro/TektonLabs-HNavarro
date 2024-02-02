@@ -602,14 +602,15 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Core\\Practice.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Core\\Practice.Core.csproj",
       "projectName": "Practice.Core",
-      "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Core\\Practice.Core.csproj",
+      "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Core\\Practice.Core.csproj",
       "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Core\\obj\\",
+      "outputPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Core\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [
+        "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\NuGet.Config",
         "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -617,7 +618,6 @@
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -696,6 +696,7 @@
           "FastEndpoints.Swagger": "[5.20.0, )",
           "FastEndpoints.Swagger.Swashbuckle": "[2.2.0, )",
           "FluentAssertions": "[6.12.0, )",
+          "LazyCache.AspNetCore": "[2.4.0, )",
           "MailKit": "[4.3.0, )",
           "MediatR": "[12.2.0, )",
           "Microsoft.AspNetCore.Mvc.Testing": "[8.0.0, )",
