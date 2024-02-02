@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GCd+q3hh9dsLPr85FbIwgTfoyoVDoMzl1j+4WL2wBoK5rCOae7rs9K/pjLE0puae3V+SgQlRXibRs2ze3J3jRg==",
+  "dgSpecHash": "K0drtdyccY3d3VbYqM7v4QTDAKd5dBoqZpPMsCZmq67bMnshw3BE5mkFtw9VeboOkWMpCfjueWOdlJMr2drj8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\tests\\Practice.IntegrationTests\\Practice.IntegrationTests.csproj",
+  "projectFilePath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\tests\\Practice.IntegrationTests\\Practice.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henry\\.nuget\\packages\\ardalis.guardclauses\\4.2.0\\ardalis.guardclauses.4.2.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\ardalis.result\\7.2.0\\ardalis.result.7.2.0.nupkg.sha512",
@@ -18,6 +18,8 @@
     "C:\\Users\\Henry\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
+    "C:\\Users\\Henry\\.nuget\\packages\\lazycache\\2.4.0\\lazycache.2.4.0.nupkg.sha512",
+    "C:\\Users\\Henry\\.nuget\\packages\\lazycache.aspnetcore\\2.4.0\\lazycache.aspnetcore.2.4.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\mailkit\\4.3.0\\mailkit.4.3.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

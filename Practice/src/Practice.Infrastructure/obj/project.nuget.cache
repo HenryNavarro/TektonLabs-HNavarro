@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ki3KreAbmxnqqD1qVOR2rPG6B26bKpNY4viPLcNDukPPi2h3sW4ZZBAd2iLNdCgf0MBkAFn29ubvHn34bPxseA==",
+  "dgSpecHash": "wSG8YFYWt9etA2+yzFZ1d9J9Xobw3vgr7mFVdZ0UCSGSsfC7M+Bqa+Kw84k2yZaLCbsR77V/y5zyI0Fsf7EBsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henry\\.nuget\\packages\\ardalis.guardclauses\\4.2.0\\ardalis.guardclauses.4.2.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\ardalis.result\\7.2.0\\ardalis.result.7.2.0.nupkg.sha512",
@@ -16,6 +16,8 @@
     "C:\\Users\\Henry\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Henry\\.nuget\\packages\\lazycache\\2.4.0\\lazycache.2.4.0.nupkg.sha512",
+    "C:\\Users\\Henry\\.nuget\\packages\\lazycache.aspnetcore\\2.4.0\\lazycache.aspnetcore.2.4.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\mailkit\\4.3.0\\mailkit.4.3.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

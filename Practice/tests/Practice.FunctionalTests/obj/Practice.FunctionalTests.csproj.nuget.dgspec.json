@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\tests\\Practice.FunctionalTests\\Practice.FunctionalTests.csproj": {}
+    "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\tests\\Practice.FunctionalTests\\Practice.FunctionalTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Core\\Practice.Core.csproj": {
+    "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Core\\Practice.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Core\\Practice.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Core\\Practice.Core.csproj",
         "projectName": "Practice.Core",
-        "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Core\\Practice.Core.csproj",
+        "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Core\\Practice.Core.csproj",
         "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Core\\obj\\",
+        "outputPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Core\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -101,6 +101,7 @@
             "FastEndpoints.Swagger": "[5.20.0, )",
             "FastEndpoints.Swagger.Swashbuckle": "[2.2.0, )",
             "FluentAssertions": "[6.12.0, )",
+            "LazyCache.AspNetCore": "[2.4.0, )",
             "MailKit": "[4.3.0, )",
             "MediatR": "[12.2.0, )",
             "Microsoft.AspNetCore.Mvc.Testing": "[8.0.0, )",
@@ -141,14 +142,14 @@
         }
       }
     },
-    "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj": {
+    "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj",
         "projectName": "Practice.Infrastructure",
-        "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -166,11 +167,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Core\\Practice.Core.csproj": {
-                "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Core\\Practice.Core.csproj"
+              "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Core\\Practice.Core.csproj": {
+                "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Core\\Practice.Core.csproj"
               },
-              "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj": {
-                "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj"
+              "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj": {
+                "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj"
               }
             }
           }
@@ -204,6 +205,11 @@
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "LazyCache.AspNetCore": {
+              "target": "Package",
+              "version": "[2.4.0, )",
               "versionCentrallyManaged": true
             },
             "MailKit": {
@@ -256,6 +262,7 @@
             "FastEndpoints.Swagger": "[5.20.0, )",
             "FastEndpoints.Swagger.Swashbuckle": "[2.2.0, )",
             "FluentAssertions": "[6.12.0, )",
+            "LazyCache.AspNetCore": "[2.4.0, )",
             "MailKit": "[4.3.0, )",
             "MediatR": "[12.2.0, )",
             "Microsoft.AspNetCore.Mvc.Testing": "[8.0.0, )",
@@ -296,14 +303,14 @@
         }
       }
     },
-    "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj": {
+    "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj",
+        "projectUniqueName": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj",
         "projectName": "Practice.UseCases",
-        "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj",
+        "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj",
         "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.UseCases\\obj\\",
+        "outputPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.UseCases\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -321,8 +328,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Core\\Practice.Core.csproj": {
-                "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Core\\Practice.Core.csproj"
+              "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Core\\Practice.Core.csproj": {
+                "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Core\\Practice.Core.csproj"
               }
             }
           }
@@ -372,6 +379,7 @@
             "FastEndpoints.Swagger": "[5.20.0, )",
             "FastEndpoints.Swagger.Swashbuckle": "[2.2.0, )",
             "FluentAssertions": "[6.12.0, )",
+            "LazyCache.AspNetCore": "[2.4.0, )",
             "MailKit": "[4.3.0, )",
             "MediatR": "[12.2.0, )",
             "Microsoft.AspNetCore.Mvc.Testing": "[8.0.0, )",
@@ -412,14 +420,14 @@
         }
       }
     },
-    "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Web\\Practice.Web.csproj": {
+    "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Web\\Practice.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Web\\Practice.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Web\\Practice.Web.csproj",
         "projectName": "Practice.Web",
-        "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Web\\Practice.Web.csproj",
+        "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Web\\Practice.Web.csproj",
         "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Web\\obj\\",
+        "outputPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Web\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -437,11 +445,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj"
+              "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj"
               },
-              "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj": {
-                "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj"
+              "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj": {
+                "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj"
               }
             }
           }
@@ -517,6 +525,7 @@
             "FastEndpoints.Swagger": "[5.20.0, )",
             "FastEndpoints.Swagger.Swashbuckle": "[2.2.0, )",
             "FluentAssertions": "[6.12.0, )",
+            "LazyCache.AspNetCore": "[2.4.0, )",
             "MailKit": "[4.3.0, )",
             "MediatR": "[12.2.0, )",
             "Microsoft.AspNetCore.Mvc.Testing": "[8.0.0, )",
@@ -560,14 +569,14 @@
         }
       }
     },
-    "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\tests\\Practice.FunctionalTests\\Practice.FunctionalTests.csproj": {
+    "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\tests\\Practice.FunctionalTests\\Practice.FunctionalTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\tests\\Practice.FunctionalTests\\Practice.FunctionalTests.csproj",
+        "projectUniqueName": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\tests\\Practice.FunctionalTests\\Practice.FunctionalTests.csproj",
         "projectName": "Practice.FunctionalTests",
-        "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\tests\\Practice.FunctionalTests\\Practice.FunctionalTests.csproj",
+        "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\tests\\Practice.FunctionalTests\\Practice.FunctionalTests.csproj",
         "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\tests\\Practice.FunctionalTests\\obj\\",
+        "outputPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\tests\\Practice.FunctionalTests\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -585,14 +594,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj"
+              "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Infrastructure\\Practice.Infrastructure.csproj"
               },
-              "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj": {
-                "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj"
+              "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj": {
+                "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.UseCases\\Practice.UseCases.csproj"
               },
-              "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Web\\Practice.Web.csproj": {
-                "projectPath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Web\\Practice.Web.csproj"
+              "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Web\\Practice.Web.csproj": {
+                "projectPath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Web\\Practice.Web.csproj"
               }
             }
           }
@@ -671,6 +680,7 @@
             "FastEndpoints.Swagger": "[5.20.0, )",
             "FastEndpoints.Swagger.Swashbuckle": "[2.2.0, )",
             "FluentAssertions": "[6.12.0, )",
+            "LazyCache.AspNetCore": "[2.4.0, )",
             "MailKit": "[4.3.0, )",
             "MediatR": "[12.2.0, )",
             "Microsoft.AspNetCore.Mvc.Testing": "[8.0.0, )",

@@ -40,7 +40,6 @@ builder.Services.Configure<ServiceConfig>(config =>
   //config.Path = "/listservices";
 });
 
-
 builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
 {
   containerBuilder.RegisterModule(new DefaultCoreModule());

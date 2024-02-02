@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nhlEGClTo8HajIEgUfb28UqQW5l62ApEOjPpgiq1cqqJYRuPva1RQWkYgatyjCvcj4E7W8ugq3ep+8UqSuKLbg==",
+  "dgSpecHash": "XavmsiMHj3Wh95G5YqwnpaBXm6tE5FGh9T/mFqujDlAB/uzkFVG7DorvFnsTolYmhumhPpx/Ul90GPFge6nOjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\src\\Practice.Web\\Practice.Web.csproj",
+  "projectFilePath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\src\\Practice.Web\\Practice.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henry\\.nuget\\packages\\ardalis.guardclauses\\4.2.0\\ardalis.guardclauses.4.2.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\ardalis.liststartupservices\\1.1.4\\ardalis.liststartupservices.1.1.4.nupkg.sha512",
@@ -72,6 +72,8 @@
     "C:\\Users\\Henry\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\Henry\\.nuget\\packages\\lazycache\\2.4.0\\lazycache.2.4.0.nupkg.sha512",
+    "C:\\Users\\Henry\\.nuget\\packages\\lazycache.aspnetcore\\2.4.0\\lazycache.aspnetcore.2.4.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\mailkit\\4.3.0\\mailkit.4.3.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

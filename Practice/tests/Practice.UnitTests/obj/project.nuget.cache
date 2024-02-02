@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qebsxTsCbmXpZZHN3C2yYCVqTYzP518GhbD+CRVHPJFcFxLaNjTi4UPsk5mopHk1FnL9jjiR2grgKLzpmN/njw==",
+  "dgSpecHash": "Qphycqiex5DTz8YOKcy0wtU/UVA77fAVMDSsLUfrjIwYcYgzFLrZshtDxxxGvmfVCAHFkX/1uUEnFEIxe1eZbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\tests\\Practice.UnitTests\\Practice.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\tests\\Practice.UnitTests\\Practice.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henry\\.nuget\\packages\\ardalis.guardclauses\\4.2.0\\ardalis.guardclauses.4.2.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\ardalis.result\\7.2.0\\ardalis.result.7.2.0.nupkg.sha512",

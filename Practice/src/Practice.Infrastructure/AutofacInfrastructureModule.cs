@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using Ardalis.SharedKernel;
 using Autofac;
+using LazyCache;
 using MediatR;
 using MediatR.Pipeline;
 using Practice.Core.ProductAggregate;
@@ -59,19 +60,31 @@ public class AutofacInfrastructureModule : Module
     RegisterEF(builder);
     RegisterQueries(builder);
     RegisterMediatR(builder);
+    RegisterCache(builder);
+
+  }
+  private void RegisterCache(ContainerBuilder builder)
+  {
+    builder.RegisterInstance(new CachingService())
+      .As<IAppCache>()
+      .SingleInstance();
+
+    builder.RegisterType<CachedRepositoryDecorator>()
+       .As<IReadOnlyRepository<ProductStatus>>()
+       .InstancePerLifetimeScope();
   }
 
   private void RegisterEF(ContainerBuilder builder)
   {
-    builder.RegisterType<CachedRepositoryDecorator>()
-      .As<IReadOnlyRepository<ProductStatus>>()
-      .InstancePerLifetimeScope();
+
 
     builder.RegisterGeneric(typeof(EfRepository<>))
-     //.As(typeof(IReadOnlyRepository<>))
+      //.As(typeof(IReadOnlyRepository<>))
       .As(typeof(IRepository<>))
       .As(typeof(IReadRepository<>))
       .InstancePerLifetimeScope();
+
+
   }
 
   private void RegisterQueries(ContainerBuilder builder)

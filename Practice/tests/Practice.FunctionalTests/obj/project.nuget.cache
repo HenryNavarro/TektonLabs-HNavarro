@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K54+UtX8C1T05/25H/wwQONCQ54hyRMtJ1v9SQM5cmdGF9AXVUVNegHj6f4Oy5rgQRGHaDmnchpvyNbYOOQMsA==",
+  "dgSpecHash": "5PK6OW9VPSzgPh0s9DAtbX9wMumX+3api7/ZxG/2n04/6p/HwPz22Jkk3Sps/cK7LullmihzwqFiB2T3xp0vqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Henry\\source\\repos\\Practice\\Practice\\tests\\Practice.FunctionalTests\\Practice.FunctionalTests.csproj",
+  "projectFilePath": "C:\\Users\\Henry\\source\\github\\TektonLabs-HNavarro\\Practice\\tests\\Practice.FunctionalTests\\Practice.FunctionalTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henry\\.nuget\\packages\\ardalis.guardclauses\\4.2.0\\ardalis.guardclauses.4.2.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\ardalis.httpclienttestextensions\\4.2.0\\ardalis.httpclienttestextensions.4.2.0.nupkg.sha512",
@@ -25,6 +25,8 @@
     "C:\\Users\\Henry\\.nuget\\packages\\fastendpoints.swagger\\5.20.0\\fastendpoints.swagger.5.20.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
+    "C:\\Users\\Henry\\.nuget\\packages\\lazycache\\2.4.0\\lazycache.2.4.0.nupkg.sha512",
+    "C:\\Users\\Henry\\.nuget\\packages\\lazycache.aspnetcore\\2.4.0\\lazycache.aspnetcore.2.4.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\mailkit\\4.3.0\\mailkit.4.3.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Henry\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

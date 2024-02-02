@@ -1,47 +1,28 @@
 ﻿using Ardalis.SharedKernel;
-using Microsoft.Extensions.Caching.Memory;
+using LazyCache;
 using Practice.Core.ProductStatusAggregate;
 
 namespace Practice.Infrastructure.Data;
 
-public class CachedRepositoryDecorator : IReadOnlyRepository<ProductStatus>
+public class CachedRepositoryDecorator(IReadRepository<ProductStatus> repository, IAppCache cache) : IReadOnlyRepository<ProductStatus>
 {
-
-  private readonly IReadRepository<ProductStatus> _repository;
-  private readonly IMemoryCache _cache;
-  private const string MyModelCacheKey = "ProductStatus";
-  private MemoryCacheEntryOptions cacheOptions;
-
-  // alternatively use IDistributedCache if you use redis and multiple services
-  public CachedRepositoryDecorator(IReadRepository<ProductStatus> repository, IMemoryCache cache)
-  {
-    _repository = repository;
-    _cache = cache;
-
-    // 5 min cache
-    cacheOptions = new MemoryCacheEntryOptions()
-        .SetAbsoluteExpiration(relative: TimeSpan.FromMinutes(5));
-  }
+    private const string MyModelCacheKey = "ProductStatus";
 
   public Task<ProductStatus?> GetByIdAsync(int id)
   {
     string key = MyModelCacheKey + "-" + id;
 
-    return _cache.GetOrCreateAsync(key, async entry =>
-    {
-      entry.SetOptions(cacheOptions);
-      return await _repository.GetByIdAsync(id);
-
-    });
+    return cache.GetOrAddAsync(key
+      , async () => await repository.GetByIdAsync(id)
+      , DateTimeOffset.Now.AddMinutes(5));
   }
 
-  public Task<List<ProductStatus>?> ListAsync()
+  public Task<List<ProductStatus>> ListAsync()
   {
-    return _cache.GetOrCreateAsync(MyModelCacheKey, async entry =>
-    {
-      entry.SetOptions(cacheOptions);
-      return await _repository.ListAsync();
-    });
+    return cache.GetOrAddAsync(
+        MyModelCacheKey
+        , async () => await repository.ListAsync()
+        , DateTimeOffset.Now.AddMinutes(5));
   }
 
 }

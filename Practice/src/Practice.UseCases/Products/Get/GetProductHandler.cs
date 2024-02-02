@@ -1,6 +1,5 @@
 ﻿using Ardalis.Result;
 using Ardalis.SharedKernel;
-using Ardalis.Specification;
 using Practice.Core.ProductAggregate;
 using Practice.Core.ProductAggregate.Specifications;
 using Practice.Core.ProductStatusAggregate;
