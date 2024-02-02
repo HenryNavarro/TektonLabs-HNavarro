@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Practice.Web</name>
+    </assembly>
+    <members>
+        <member name="T:Practice.Web.Endpoints.ProductEndpoints.CreateProductValidator">
+            <summary>
+            See: https://fast-endpoints.com/docs/validation
+            </summary>
+        </member>
+        <member name="T:Practice.Web.Endpoints.ProductEndpoints.GetProductValidator">
+            <summary>
+            See: https://fast-endpoints.com/docs/validation
+            </summary>
+        </member>
+        <member name="T:Practice.Web.Endpoints.ProductEndpoints.UpdateProductValidator">
+            <summary>
+            See: https://fast-endpoints.com/docs/validation
+            </summary>
+        </member>
+        <member name="T:Practice.Web.ProductEndpoints.GetById">
+            <summary>
+            Get a Product by integer ID.
+            </summary>
+            <remarks>
+            Takes a positive integer ID and returns a matching Product record.
+            </remarks>
+        </member>
+        <member name="M:Practice.Web.ProductEndpoints.GetById.#ctor(MediatR.IMediator)">
+            <summary>
+            Get a Product by integer ID.
+            </summary>
+            <remarks>
+            Takes a positive integer ID and returns a matching Product record.
+            </remarks>
+        </member>
+    </members>
+</doc>

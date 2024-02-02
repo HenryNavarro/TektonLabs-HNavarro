@@ -1,0 +1,42 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@hostname=localhost
+@port=57679
+
+// List all Products
+GET http://{{hostname}}:{{port}}/Products
+
+###
+
+// Get a specific Product
+@id_to_get=1
+GET http://{{hostname}}:{{port}}/Products/{{id_to_get}}
+
+###
+
+// Add a new Product
+POST http://{{hostname}}:{{port}}/Products
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "test@test.com"
+}
+
+###
+
+// Update a Product
+@id_to_update=1
+PUT http://{{hostname}}:{{port}}/Products/{{id_to_update}}
+Content-Type: application/json
+
+{
+  "id": {{id_to_update}},
+  "name": "ardalis2"
+}
+
+###
+
+// Delete a Product
+@id_to_delete=1
+DELETE http://{{hostname}}:{{port}}/Products/{{id_to_delete}}
+

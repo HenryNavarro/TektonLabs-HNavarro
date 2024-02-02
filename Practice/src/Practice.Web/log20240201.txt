@@ -1,0 +1,454 @@
+2024-02-01 21:15:55.437 -05:00 [INF] Registered 3 endpoints in 506 milliseconds.
+2024-02-01 21:15:56.720 -05:00 [INF] Executed DbCommand (535ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-02-01 21:15:56.790 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Product" (
+    "ProductId" INTEGER NOT NULL CONSTRAINT "PK_Product" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NOT NULL,
+    "Price" TEXT NOT NULL DEFAULT '0.0',
+    "Stock" TEXT NOT NULL DEFAULT '0.0',
+    "Status" INTEGER NOT NULL DEFAULT 1,
+    "Discount" TEXT NOT NULL
+);
+2024-02-01 21:15:56.791 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ProductStatus" (
+    "ProductStatusId" INTEGER NOT NULL CONSTRAINT "PK_ProductStatus" PRIMARY KEY,
+    "Name" TEXT NOT NULL
+);
+2024-02-01 21:15:56.925 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Product" AS "p")
+2024-02-01 21:15:56.961 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+2024-02-01 21:15:59.999 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 33), @p2='?' (DbType = Decimal), @p3='?' (Size = 9), @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32), @p6='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Product" ("ProductId", "Description", "Discount", "Name", "Price", "Status", "Stock")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-02-01 21:16:00.006 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 33), @p2='?' (DbType = Decimal), @p3='?' (Size = 9), @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32), @p6='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Product" ("ProductId", "Description", "Discount", "Name", "Price", "Status", "Stock")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-02-01 21:16:00.007 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 33), @p2='?' (DbType = Decimal), @p3='?' (Size = 9), @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32), @p6='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Product" ("ProductId", "Description", "Discount", "Name", "Price", "Status", "Stock")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-02-01 21:16:00.008 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 33), @p2='?' (DbType = Decimal), @p3='?' (Size = 9), @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32), @p6='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Product" ("ProductId", "Description", "Discount", "Name", "Price", "Status", "Stock")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-02-01 21:16:00.009 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 33), @p2='?' (DbType = Decimal), @p3='?' (Size = 9), @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32), @p6='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Product" ("ProductId", "Description", "Discount", "Name", "Price", "Status", "Stock")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-02-01 21:16:00.011 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 33), @p2='?' (DbType = Decimal), @p3='?' (Size = 9), @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32), @p6='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Product" ("ProductId", "Description", "Discount", "Name", "Price", "Status", "Stock")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-02-01 21:16:00.011 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 33), @p2='?' (DbType = Decimal), @p3='?' (Size = 9), @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32), @p6='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Product" ("ProductId", "Description", "Discount", "Name", "Price", "Status", "Stock")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-02-01 21:16:00.012 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 33), @p2='?' (DbType = Decimal), @p3='?' (Size = 9), @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32), @p6='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Product" ("ProductId", "Description", "Discount", "Name", "Price", "Status", "Stock")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-02-01 21:16:00.012 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 33), @p2='?' (DbType = Decimal), @p3='?' (Size = 9), @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32), @p6='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Product" ("ProductId", "Description", "Discount", "Name", "Price", "Status", "Stock")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-02-01 21:16:00.014 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 33), @p2='?' (DbType = Decimal), @p3='?' (Size = 10), @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32), @p6='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Product" ("ProductId", "Description", "Discount", "Name", "Price", "Status", "Stock")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2024-02-01 21:16:01.866 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ProductStatus" ("ProductStatusId", "Name")
+VALUES (@p0, @p1);
+2024-02-01 21:16:01.866 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ProductStatus" ("ProductStatusId", "Name")
+VALUES (@p0, @p1);
+2024-02-01 21:16:01.952 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-01 21:16:01.953 -05:00 [INF] Hosting environment: Development
+2024-02-01 21:16:01.953 -05:00 [INF] Content root path: C:\Users\Henry\source\repos\Practice\Practice\src\Practice.Web
+2024-02-01 21:16:01.989 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-02-01 21:16:02.129 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-02-01 21:16:02.129 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 142.215ms
+2024-02-01 21:16:02.250 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 121.4159ms
+2024-02-01 21:16:02.262 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-01 21:16:02.267 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 4.2611ms
+2024-02-01 21:16:02.275 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-02-01 21:16:02.317 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.4966ms
+2024-02-01 21:16:02.409 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-02-01 21:16:02.423 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-02-01 21:16:02.754 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 345.1449ms
+2024-02-01 21:16:32.990 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Products/1000 - null null
+2024-02-01 21:16:32.994 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-02-01 21:16:32.999 -05:00 [INF] Executing endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:16:33.034 -05:00 [INF] Handling GetProductQuery
+2024-02-01 21:16:33.035 -05:00 [INF] Property Id : 1000
+2024-02-01 21:16:33.113 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+WHERE "p"."ProductId" = @__productId_0
+LIMIT 1
+2024-02-01 21:16:33.115 -05:00 [INF] Handled GetProductQuery with Ardalis.Result.Result`1[Practice.UseCases.Products.ProductDTO] in 80 ms
+2024-02-01 21:16:33.117 -05:00 [INF] Executed endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:16:33.120 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Products/1000 - 404 null null 130.3216ms
+2024-02-01 21:16:43.365 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Products/1001 - null null
+2024-02-01 21:16:43.366 -05:00 [INF] Executing endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:16:43.368 -05:00 [INF] Handling GetProductQuery
+2024-02-01 21:16:43.368 -05:00 [INF] Property Id : 1001
+2024-02-01 21:16:43.373 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+WHERE "p"."ProductId" = @__productId_0
+LIMIT 1
+2024-02-01 21:16:43.400 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductStatusId", "p"."Name"
+FROM "ProductStatus" AS "p"
+WHERE "p"."ProductStatusId" = @__p_0
+LIMIT 1
+2024-02-01 21:16:43.402 -05:00 [INF] Handled GetProductQuery with Ardalis.Result.Result`1[Practice.UseCases.Products.ProductDTO] in 33 ms
+2024-02-01 21:16:43.421 -05:00 [INF] Executed endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:16:43.421 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Products/1001 - 200 null application/json 56.3568ms
+2024-02-01 21:16:50.251 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Products/1005 - null null
+2024-02-01 21:16:50.251 -05:00 [INF] Executing endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:16:50.252 -05:00 [INF] Handling GetProductQuery
+2024-02-01 21:16:50.252 -05:00 [INF] Property Id : 1005
+2024-02-01 21:16:50.254 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+WHERE "p"."ProductId" = @__productId_0
+LIMIT 1
+2024-02-01 21:16:50.256 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductStatusId", "p"."Name"
+FROM "ProductStatus" AS "p"
+WHERE "p"."ProductStatusId" = @__p_0
+LIMIT 1
+2024-02-01 21:16:50.257 -05:00 [INF] Handled GetProductQuery with Ardalis.Result.Result`1[Practice.UseCases.Products.ProductDTO] in 4 ms
+2024-02-01 21:16:50.258 -05:00 [INF] Executed endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:16:50.259 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Products/1005 - 200 null application/json 7.9382ms
+2024-02-01 21:17:23.404 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Products/1005 - null null
+2024-02-01 21:17:23.405 -05:00 [INF] Executing endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:17:23.406 -05:00 [INF] Handling GetProductQuery
+2024-02-01 21:17:23.407 -05:00 [INF] Property Id : 1005
+2024-02-01 21:17:23.408 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+WHERE "p"."ProductId" = @__productId_0
+LIMIT 1
+2024-02-01 21:17:23.409 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductStatusId", "p"."Name"
+FROM "ProductStatus" AS "p"
+WHERE "p"."ProductStatusId" = @__p_0
+LIMIT 1
+2024-02-01 21:17:23.410 -05:00 [INF] Handled GetProductQuery with Ardalis.Result.Result`1[Practice.UseCases.Products.ProductDTO] in 2 ms
+2024-02-01 21:17:23.411 -05:00 [INF] Executed endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:17:23.412 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Products/1005 - 404 null null 6.9507ms
+2024-02-01 21:17:45.292 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Products/1005 - null null
+2024-02-01 21:17:45.293 -05:00 [INF] Executing endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:17:45.294 -05:00 [INF] Handling GetProductQuery
+2024-02-01 21:17:45.294 -05:00 [INF] Property Id : 1005
+2024-02-01 21:17:45.296 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+WHERE "p"."ProductId" = @__productId_0
+LIMIT 1
+2024-02-01 21:17:45.297 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductStatusId", "p"."Name"
+FROM "ProductStatus" AS "p"
+WHERE "p"."ProductStatusId" = @__p_0
+LIMIT 1
+2024-02-01 21:17:45.298 -05:00 [INF] Handled GetProductQuery with Ardalis.Result.Result`1[Practice.UseCases.Products.ProductDTO] in 3 ms
+2024-02-01 21:17:45.298 -05:00 [INF] Executed endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:17:45.298 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Products/1005 - 404 null null 6.5073ms
+2024-02-01 21:17:49.168 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Products/1005 - null null
+2024-02-01 21:17:49.168 -05:00 [INF] Executing endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:17:49.169 -05:00 [INF] Handling GetProductQuery
+2024-02-01 21:17:49.169 -05:00 [INF] Property Id : 1005
+2024-02-01 21:17:49.171 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+WHERE "p"."ProductId" = @__productId_0
+LIMIT 1
+2024-02-01 21:17:49.172 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductStatusId", "p"."Name"
+FROM "ProductStatus" AS "p"
+WHERE "p"."ProductStatusId" = @__p_0
+LIMIT 1
+2024-02-01 21:17:49.172 -05:00 [INF] Handled GetProductQuery with Ardalis.Result.Result`1[Practice.UseCases.Products.ProductDTO] in 2 ms
+2024-02-01 21:17:49.172 -05:00 [INF] Executed endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:17:49.173 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Products/1005 - 200 null application/json 5.402ms
+2024-02-01 21:20:44.989 -05:00 [INF] Registered 3 endpoints in 2263 milliseconds.
+2024-02-01 21:20:47.181 -05:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-02-01 21:20:47.755 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+2024-02-01 21:20:47.917 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductStatusId", "p"."Name"
+FROM "ProductStatus" AS "p"
+2024-02-01 21:20:48.178 -05:00 [INF] Executed DbCommand (13ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:20:48.198 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:20:48.201 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:20:48.205 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:20:48.209 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:20:48.212 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:20:48.215 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:20:48.217 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:20:48.218 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:20:48.219 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:20:48.952 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-01 21:20:48.953 -05:00 [INF] Hosting environment: Development
+2024-02-01 21:20:48.953 -05:00 [INF] Content root path: C:\Users\Henry\source\repos\Practice\Practice\src\Practice.Web
+2024-02-01 21:20:49.054 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-02-01 21:20:49.491 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-02-01 21:20:49.529 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 489.8672ms
+2024-02-01 21:20:49.951 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 459.5061ms
+2024-02-01 21:20:49.983 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-01 21:20:49.984 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-02-01 21:20:49.995 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 21.362ms
+2024-02-01 21:20:50.110 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 125.9555ms
+2024-02-01 21:20:50.227 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-02-01 21:20:50.265 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-02-01 21:20:51.853 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 1626.8558ms
+2024-02-01 21:21:05.548 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Products/1005 - null null
+2024-02-01 21:21:05.558 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-02-01 21:21:05.569 -05:00 [INF] Executing endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:21:05.780 -05:00 [INF] Handling GetProductQuery
+2024-02-01 21:21:05.782 -05:00 [INF] Property Id : 1005
+2024-02-01 21:21:06.337 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+WHERE "p"."ProductId" = @__productId_0
+LIMIT 1
+2024-02-01 21:21:06.396 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductStatusId", "p"."Name"
+FROM "ProductStatus" AS "p"
+WHERE "p"."ProductStatusId" = @__p_0
+LIMIT 1
+2024-02-01 21:21:06.401 -05:00 [INF] Handled GetProductQuery with Ardalis.Result.Result`1[Practice.UseCases.Products.ProductDTO] in 618 ms
+2024-02-01 21:21:06.454 -05:00 [INF] Executed endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:21:06.467 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Products/1005 - 200 null application/json 919.4917ms
+2024-02-01 21:21:11.733 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Products/1004 - null null
+2024-02-01 21:21:11.735 -05:00 [INF] Executing endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:21:12.501 -05:00 [INF] Handling GetProductQuery
+2024-02-01 21:21:12.503 -05:00 [INF] Property Id : 1004
+2024-02-01 21:21:12.520 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+WHERE "p"."ProductId" = @__productId_0
+LIMIT 1
+2024-02-01 21:21:12.526 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductStatusId", "p"."Name"
+FROM "ProductStatus" AS "p"
+WHERE "p"."ProductStatusId" = @__p_0
+LIMIT 1
+2024-02-01 21:21:12.527 -05:00 [INF] Handled GetProductQuery with Ardalis.Result.Result`1[Practice.UseCases.Products.ProductDTO] in 23 ms
+2024-02-01 21:21:12.529 -05:00 [INF] Executed endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:21:12.532 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Products/1004 - 200 null application/json 798.0952ms
+2024-02-01 21:21:21.644 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Products/1004 - null null
+2024-02-01 21:21:21.646 -05:00 [INF] Executing endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:21:21.650 -05:00 [INF] Handling GetProductQuery
+2024-02-01 21:21:21.650 -05:00 [INF] Property Id : 1004
+2024-02-01 21:21:21.655 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+WHERE "p"."ProductId" = @__productId_0
+LIMIT 1
+2024-02-01 21:21:21.659 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductStatusId", "p"."Name"
+FROM "ProductStatus" AS "p"
+WHERE "p"."ProductStatusId" = @__p_0
+LIMIT 1
+2024-02-01 21:21:21.662 -05:00 [INF] Handled GetProductQuery with Ardalis.Result.Result`1[Practice.UseCases.Products.ProductDTO] in 11 ms
+2024-02-01 21:21:21.666 -05:00 [INF] Executed endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:21:21.668 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Products/1004 - 404 null null 23.4976ms
+2024-02-01 21:21:24.034 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Products/1004 - null null
+2024-02-01 21:21:24.036 -05:00 [INF] Executing endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:21:24.040 -05:00 [INF] Handling GetProductQuery
+2024-02-01 21:21:24.040 -05:00 [INF] Property Id : 1004
+2024-02-01 21:21:24.045 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+WHERE "p"."ProductId" = @__productId_0
+LIMIT 1
+2024-02-01 21:21:24.048 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductStatusId", "p"."Name"
+FROM "ProductStatus" AS "p"
+WHERE "p"."ProductStatusId" = @__p_0
+LIMIT 1
+2024-02-01 21:21:24.048 -05:00 [INF] Handled GetProductQuery with Ardalis.Result.Result`1[Practice.UseCases.Products.ProductDTO] in 7 ms
+2024-02-01 21:21:24.049 -05:00 [INF] Executed endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:21:24.050 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Products/1004 - 404 null null 15.7613ms
+2024-02-01 21:21:25.099 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Products/1004 - null null
+2024-02-01 21:21:25.100 -05:00 [INF] Executing endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:21:25.103 -05:00 [INF] Handling GetProductQuery
+2024-02-01 21:21:25.103 -05:00 [INF] Property Id : 1004
+2024-02-01 21:21:25.109 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+WHERE "p"."ProductId" = @__productId_0
+LIMIT 1
+2024-02-01 21:21:25.112 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductStatusId", "p"."Name"
+FROM "ProductStatus" AS "p"
+WHERE "p"."ProductStatusId" = @__p_0
+LIMIT 1
+2024-02-01 21:21:25.113 -05:00 [INF] Handled GetProductQuery with Ardalis.Result.Result`1[Practice.UseCases.Products.ProductDTO] in 9 ms
+2024-02-01 21:21:25.114 -05:00 [INF] Executed endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:21:25.116 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Products/1004 - 404 null null 16.6327ms
+2024-02-01 21:21:43.212 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Products/1004 - null null
+2024-02-01 21:21:43.212 -05:00 [INF] Executing endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:21:43.216 -05:00 [INF] Handling GetProductQuery
+2024-02-01 21:21:43.216 -05:00 [INF] Property Id : 1004
+2024-02-01 21:21:43.221 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__productId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+WHERE "p"."ProductId" = @__productId_0
+LIMIT 1
+2024-02-01 21:21:43.225 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductStatusId", "p"."Name"
+FROM "ProductStatus" AS "p"
+WHERE "p"."ProductStatusId" = @__p_0
+LIMIT 1
+2024-02-01 21:21:43.226 -05:00 [INF] Handled GetProductQuery with Ardalis.Result.Result`1[Practice.UseCases.Products.ProductDTO] in 9 ms
+2024-02-01 21:21:43.229 -05:00 [INF] Executed endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:21:43.230 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Products/1004 - 200 null application/json 18.1768ms
+2024-02-01 21:37:53.910 -05:00 [INF] Registered 3 endpoints in 1624 milliseconds.
+2024-02-01 21:37:56.165 -05:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-02-01 21:37:56.587 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductId", "p"."Description", "p"."Discount", "p"."Name", "p"."Price", "p"."Status", "p"."Stock"
+FROM "Product" AS "p"
+2024-02-01 21:37:56.747 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ProductStatusId", "p"."Name"
+FROM "ProductStatus" AS "p"
+2024-02-01 21:37:57.002 -05:00 [INF] Executed DbCommand (9ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:37:57.685 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:37:57.687 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:37:57.690 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:37:57.694 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:37:57.696 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:37:57.697 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:37:57.698 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:37:57.699 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:37:57.701 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Product" SET "Price" = @p0, "Stock" = @p1
+WHERE "ProductId" = @p2
+RETURNING 1;
+2024-02-01 21:37:58.030 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-01 21:37:58.033 -05:00 [INF] Hosting environment: Development
+2024-02-01 21:37:58.033 -05:00 [INF] Content root path: C:\Users\Henry\source\repos\Practice\Practice\src\Practice.Web
+2024-02-01 21:37:58.122 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-02-01 21:37:58.584 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-02-01 21:37:58.601 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 492.439ms
+2024-02-01 21:37:59.269 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 685.3887ms
+2024-02-01 21:37:59.318 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-01 21:37:59.327 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-02-01 21:37:59.336 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 17.5077ms
+2024-02-01 21:37:59.470 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 142.8848ms
+2024-02-01 21:37:59.639 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-02-01 21:38:00.144 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-02-01 21:38:01.460 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 1821.4922ms
+2024-02-01 21:38:09.395 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Products/1001 - null null
+2024-02-01 21:38:09.403 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-02-01 21:38:09.412 -05:00 [INF] Executing endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:38:09.550 -05:00 [INF] Handling GetProductQuery
+2024-02-01 21:38:09.553 -05:00 [INF] Property Id : 1001
+2024-02-01 21:38:09.673 -05:00 [INF] Executed endpoint 'HTTP: GET /Products/{Id:int}'
+2024-02-01 21:38:09.677 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Practice.UseCases.Products.Get.GetProductHandler -> Practice.Infrastructure.Data.CachedRepositoryDecorator.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'Practice.Infrastructure.Data.CachedRepositoryDecorator' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Practice.Infrastructure.Data.EfRepository`1[Practice.Core.ProductStatusAggregate.ProductStatus] repository' of constructor 'Void .ctor(Practice.Infrastructure.Data.EfRepository`1[Practice.Core.ProductStatusAggregate.ProductStatus], Microsoft.Extensions.Caching.Memory.IMemoryCache)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext context)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext context)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at Practice.Web.ProductEndpoints.GetById.HandleAsync(GetProductByIdRequest request, CancellationToken cancellationToken) in C:\Users\Henry\source\repos\Practice\Practice\src\Practice.Web\Products\GetById.cs:line 28
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-01 21:38:09.737 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Products/1001 - 500 null text/plain; charset=utf-8 341.8605ms

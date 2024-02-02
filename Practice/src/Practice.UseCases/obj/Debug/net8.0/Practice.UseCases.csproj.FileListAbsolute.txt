@@ -1,0 +1,15 @@
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\bin\Debug\net8.0\Practice.UseCases.deps.json
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\bin\Debug\net8.0\Practice.UseCases.dll
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\bin\Debug\net8.0\Practice.UseCases.pdb
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\bin\Debug\net8.0\Practice.Core.dll
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\bin\Debug\net8.0\Practice.Core.pdb
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\obj\Debug\net8.0\Practice.UseCases.csproj.AssemblyReference.cache
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\obj\Debug\net8.0\Practice.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\obj\Debug\net8.0\Practice.UseCases.AssemblyInfoInputs.cache
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\obj\Debug\net8.0\Practice.UseCases.AssemblyInfo.cs
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\obj\Debug\net8.0\Practice.UseCases.csproj.CoreCompileInputs.cache
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\obj\Debug\net8.0\Practice.UseCases.csproj.CopyComplete
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\obj\Debug\net8.0\Practice.UseCases.dll
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\obj\Debug\net8.0\refint\Practice.UseCases.dll
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\obj\Debug\net8.0\Practice.UseCases.pdb
+C:\Users\Henry\source\repos\Practice\Practice\src\Practice.UseCases\obj\Debug\net8.0\ref\Practice.UseCases.dll
